@@ -9,10 +9,13 @@ function Hero(){
                             <h2>Welcome To</h2>
                             <h3>Stocia</h3>
                             <p>Mental Health and Well Being</p>
-                        </div>
+                            <div className="inner-rectangle">
+
+                            </div>
+                            </div>
+                    </div>
                 </div>
             </div>
-        </div>
     )
 }
 

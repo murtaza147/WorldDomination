@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
 }
 .rectangle-container {
   display: flex;
@@ -18,8 +17,19 @@
 .rectangle {
   width: 600px;
   height: 800px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(170, 158, 158);
   border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+.inner-rectangle {
+  position: absolute;
+  width: 400px; /* Adjust width as needed */
+  height: 400px; /* Adjust height as needed */
+  background-color: rgb(145, 80, 80); /* Change color as needed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
 }
 
 .montserratFont {
