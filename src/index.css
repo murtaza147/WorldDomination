@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Space+Grotesk:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,31 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+.rectangle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 
+}
+.rectangle {
+  width: 600px;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ffffff;
+}
+
+.montserratFont {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*Hero css__________________________________________________________________________________________________________________________________________________________________________*/
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
