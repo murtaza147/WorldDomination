@@ -4,9 +4,9 @@ import { Carousel, Hero, Navbar } from "./components";
 const App = () => {
   return (
     <BrowserRouter>
-        <Navbar />
-        <Carousel />
-        <Hero />
+      <Navbar />
+      <Carousel />
+      <Hero />
     </BrowserRouter>
   )
 }
