@@ -129,14 +129,22 @@
   max-height: 10%;
   top: 50%;
   left: 50%;
-  transform: translate(250%, 40%);
+  transform: translate(290%, 40%);
 }
 .third-image {
   max-width: 10%;
   max-height: 10%;
   top: 50%;
   left: 50%;
-  transform: translate(0%, 50%);
+  transform: translate(50%, 50%);
+}
+.fourth-image {
+  max-width: 10%;
+  max-height: 10%;
+  top: 50%;
+  left: 50%;
+  transform: translate(25%, -100%);
+  border-radius: 25px;
 }
 
 .button-container {
