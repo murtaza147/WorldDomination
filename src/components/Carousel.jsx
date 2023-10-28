@@ -5,7 +5,7 @@ import { slides } from '../constants';
 
 const carousel = () => {
     return (
-        <Carousel fade>
+        <Carousel fade indicators={false}>
             {slides.map((slide) => (
                 <Carousel.Item interval={5000}>
                     <img 
